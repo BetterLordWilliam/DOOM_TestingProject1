@@ -21,7 +21,7 @@ class WillHealthBonus : Health
 	//
 	//===========================================================================
 
-	override bool TryPickup (in out Actor other)
+  override bool TryPickup (in out Actor other)
 	{
 		PrevHealth = other.player != NULL ? other.player.health : other.health;
 
