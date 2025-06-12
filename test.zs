@@ -1,4 +1,4 @@
-class WillHealthBonus : Health
+lass WillHealthBonus : Health
 {
 	Default
 	{
