@@ -1,4 +1,4 @@
-lass WillHealthBonus : Health
+class WillHealthBonus : Health
 {
 	Default
 	{
@@ -10,17 +10,14 @@ lass WillHealthBonus : Health
 	}
 	States
 	{
-	Spawn:
-		BON1 ABCDCB 6;
-		Loop;
+    Spawn:
+      BON1 ABCDCB 6;
+      Loop;
 	}
 
-	//===========================================================================
 	//
 	// TryPickup
 	//
-	//===========================================================================
-
   override bool TryPickup (in out Actor other)
 	{
 		PrevHealth = other.player != NULL ? other.player.health : other.health;
@@ -40,5 +37,6 @@ lass WillHealthBonus : Health
 		}
 		return false;
 	}
+
 }
 
