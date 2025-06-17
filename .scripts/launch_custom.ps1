@@ -1,1 +1,6 @@
-gzdoom . -iwad "./MyStandaloneGame.ipk3" -warp 1
+$gzdoom ="$PSScriptRoot/../engine/gzdoom.exe"
+$game   ="$PSScriptRoot/../game/build/MyStandaloneGame.ipk3"
+
+Start-Process `
+  -FilePath $gzdoom `
+  -ArgumentList "-iwad $game"
