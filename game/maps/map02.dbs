@@ -13,9 +13,9 @@ maps
 		}
 		defaultfloortexture = "F_128X12";
 		defaultceiltexture = "F_SKY1";
-		defaulttoptexture = "W_128X12";
-		defaultwalltexture = "W_128X12";
-		defaultbottomtexture = "W_128X12";
+		defaulttoptexture = "GGR";
+		defaultwalltexture = "GGR";
+		defaultbottomtexture = "GGR";
 		custombrightness = 196;
 		customfloorheight = 0;
 		customceilheight = 128;
@@ -28,9 +28,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = -48.6993f;
-		viewpositiony = -33.731f;
-		viewscale = 1.428049f;
+		viewpositionx = -158.9878f;
+		viewpositiony = 639.2164f;
+		viewscale = 0.8449985f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -87,12 +87,12 @@ maps
 					prefab1
 					{
 						name = "[Previous]";
-						numberofsectors = 16;
+						numberofsectors = 7;
 						outervertexmultiplier = 1;
 						innervertexmultiplier = 1;
 						stairtype = 0;
-						sectordepth = 32;
-						spacing = 0;
+						sectordepth = 16;
+						spacing = 16;
 						frontside = true;
 						singlesectors = false;
 						distinctsectors = false;
@@ -101,7 +101,7 @@ maps
 						flipping = 0;
 						numberofcontrolpoints = 1;
 						applyfloormod = true;
-						floormod = 8;
+						floormod = 0;
 						applyceilingmod = true;
 						ceilingmod = 0;
 						applyfloortexture = false;
@@ -110,14 +110,36 @@ maps
 						ceilingtexture = "";
 						applyuppertexture = true;
 						uppertexture = "-";
-						upperunpegged = true;
+						upperunpegged = false;
 						applymiddletexture = false;
 						middletexture = "-";
 						applylowertexture = true;
-						lowertexture = "W_128X12";
-						lowerunpegged = true;
+						lowertexture = "GGRN";
+						lowerunpegged = false;
 					}
 				}
+			}
+			
+			threedfloormode
+			{
+				
+				controlsectorarea
+				{
+					usecustomtagrange = false;
+					outerleft = -3392;
+					outerright = -2880;
+					outertop = 1408;
+					outerbottom = 896;
+				}
+			}
+		}
+		
+		fieldtypes
+		{
+			
+			sector
+			{
+				user_managed_3d_floor = 3;
 			}
 		}
 	}
