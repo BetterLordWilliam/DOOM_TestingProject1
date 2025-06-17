@@ -4,14 +4,18 @@ function Nix-Path {
 }
 
 function Nix-PSScriptRoot {
+  $PSScriptRoot -Replace "\\", "/"
+} 
+
+function Nix-ProjectPath {
   ($PSScriptRoot | Split-Path -Parent) -Replace "\\", "/"
 }
 
 # ==============================================================================
 
-$builds = "$(Nix-PSScriptRoot)/build/"
-$source = "$(Nix-PSScriptRoot)/game/"
+$builds = "$(Nix-ProjectPath)/build/"
+$source = "$(Nix-ProjectPath)/game/"
 
-$gzdoom = "$(Nix-PSScriptRoot)/engine/gzdoom.exe"
-$cbuild = "$(Nix-PSScriptRoot)/build/CurrentBuild.ipk3"
+$gzdoom = "$(Nix-ProjectPath)/engine/gzdoom.exe"
+$cbuild = "$(Nix-ProjectPath)/build/CurrentBuild.ipk3"
 
