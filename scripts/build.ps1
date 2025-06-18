@@ -12,4 +12,3 @@ mv `
 Compress-Archive `
   -Path "$source/*" `
   -DestinationPath "$builds/CurrentBuild.ipk3"
-
