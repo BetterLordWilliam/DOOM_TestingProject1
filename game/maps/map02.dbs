@@ -10,6 +10,26 @@ maps
 		
 		resources
 		{
+			
+			resource0
+			{
+				type = 2;
+				location = "G:\\DoomWADs\\DOOM_TestingProject1\\build\\CurrentBuild.ipk3";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+				requiredarchives = "";
+			}
+			
+			resource1
+			{
+				type = 2;
+				location = "G:\\DoomWADs\\DOOM_TestingProject1\\engine\\gzdoom.pk3";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+				requiredarchives = "";
+			}
 		}
 		defaultfloortexture = "F_128X12";
 		defaultceiltexture = "F_SKY1";
@@ -28,8 +48,8 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = -158.9878f;
-		viewpositiony = 639.2164f;
+		viewpositionx = -306.2697f;
+		viewpositiony = 476.5043f;
 		viewscale = 0.8449985f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
