@@ -14,21 +14,11 @@ maps
 			resource0
 			{
 				type = 2;
-				location = "G:\\DoomWADs\\DOOM_TestingProject1\\build\\CurrentBuild.ipk3";
+				location = "D:\\DoomWADS\\DOOM_TestingProject1\\engine\\gzdoom.pk3";
 				option1 = 0;
 				option2 = 0;
-				notfortesting = 0;
-				requiredarchives = "";
-			}
-			
-			resource1
-			{
-				type = 2;
-				location = "G:\\DoomWADs\\DOOM_TestingProject1\\engine\\gzdoom.pk3";
-				option1 = 0;
-				option2 = 0;
-				notfortesting = 0;
-				requiredarchives = "";
+				notfortesting = 1;
+				requiredarchives = "gzdoom";
 			}
 		}
 		defaultfloortexture = "F_128X12";
@@ -48,9 +38,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = 144.1904f;
-		viewpositiony = 350.6344f;
-		viewscale = 3.137419f;
+		viewpositionx = -472.8078f;
+		viewpositiony = -280.496f;
+		viewscale = 0.8449981f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -61,7 +51,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 16;
+			gridsize = 64;
 			gridrotate = 0;
 			gridoriginx = 0;
 			gridoriginy = 0;
