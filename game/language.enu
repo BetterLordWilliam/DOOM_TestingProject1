@@ -11,3 +11,6 @@ SKILL_NIGHTMARE = "Very Hard";
 TXT_MAP01 = "My Test Level";
 
 TXT_HUD_HEALTH = "Health: ";
+
+TXT_GOT_FISTS = "You found your hands!";
+TXT_FISTS_KILLED = "Got pounded";

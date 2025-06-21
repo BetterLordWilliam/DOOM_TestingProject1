@@ -9,6 +9,7 @@ class MyStandaloneGamePlayer : PlayerPawn
 		Mass 100;
 		PainChance 255;
 		Player.DisplayName "MyStandAloneGamePlayer";
+		Player.StartItem "Fists";
 		Player.CrouchSprite "PLYC";
 		Player.ColorRange 144, 189;
 		Player.Colorset 0, "$TXT_COLOR_GREEN", 144, 191, 144;
