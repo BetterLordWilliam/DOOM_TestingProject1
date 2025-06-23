@@ -11,7 +11,7 @@ class Fists : Weapon
 		+WEAPON.MELEEWEAPON
 		+WEAPON.NOAUTOSWITCHTO
 	}
-	
+
 	states
 	{
 	Spawn:
