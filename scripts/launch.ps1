@@ -1,4 +1,4 @@
-param([bool]$bbfl=$false)
+param([switch]$bbfl=$false)
 
 . "$PSScriptRoot\variables.ps1"
 
