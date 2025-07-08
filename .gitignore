@@ -1,2 +1,7 @@
 .vscode
 .vscode/*
+
+build
+bulid/*
+build/old
+build/old/*
