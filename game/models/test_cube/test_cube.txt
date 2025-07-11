@@ -1,5 +1,8 @@
-Model TestCube
+model TestCube
 {
-	Path "models/test_cube"
-	Model "test_cube.obj"
+	Path		"models/test_cube"
+	Model		0 "test_cube.obj"
+	Skin		0 "textures/placeholder/64x64/SMGR.png"
+	FrameIndex	M000 A 0 0
 }
+

@@ -83,4 +83,5 @@ Map "MAP01" "$TXT_MAP01"
 DoomEdNums
 {
 	12345 = Fists
+	12346 = TestCube
 }
