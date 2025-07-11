@@ -1,1 +1,1 @@
-#include "./weapons/Fists.zs"
+#include "./Weapons/Fists.zs"
