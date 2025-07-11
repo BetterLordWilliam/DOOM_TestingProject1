@@ -1,0 +1,5 @@
+Model TestCube
+{
+	Path "models/test_cube"
+	Model "test_cube.obj"
+}

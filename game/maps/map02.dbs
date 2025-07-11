@@ -10,16 +10,6 @@ maps
 		
 		resources
 		{
-			
-			resource0
-			{
-				type = 2;
-				location = "D:\\DoomWADS\\DOOM_TestingProject1\\engine\\gzdoom.pk3";
-				option1 = 0;
-				option2 = 0;
-				notfortesting = 1;
-				requiredarchives = "gzdoom";
-			}
 		}
 		defaultfloortexture = "F_128X12";
 		defaultceiltexture = "F_SKY1";
@@ -38,9 +28,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = 283.1803f;
-		viewpositiony = 114.7603f;
-		viewscale = 1.428047f;
+		viewpositionx = -228.6642f;
+		viewpositiony = -278.7891f;
+		viewscale = 0.8449982f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid

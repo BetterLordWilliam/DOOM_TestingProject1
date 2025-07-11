@@ -11,4 +11,5 @@ mv `
 # Create the new build archive
 Compress-Archive `
   -Path "$source/*" `
-  -DestinationPath "$builds/CurrentBuild.ipk3"
+  -DestinationPath "$builds/CurrentBuild.ipk3" `
+  -Force
